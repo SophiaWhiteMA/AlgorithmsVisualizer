@@ -1,6 +1,6 @@
 # Algorithms Visualizer
 
-## https://algorithms.cameronwhite.io
+## https://algorithms.sophiawhite.io
 
 The goal of this project is to demonstrate common algorithms in a visual and interactive way.
 
