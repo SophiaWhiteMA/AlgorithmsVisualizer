@@ -1,0 +1,44 @@
+/** Global styling **/
+
+:root {
+    --primary: #2e44b3;
+    --secondary: #4a8ad2;
+    --active: #4c2581;
+    --text-color: black;
+    --nav-text-color: white;
+
+    --debug: rgb(255, 0, 255);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+#landing-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#landing-container div {
+    margin: 10px;
+}
+
+.pathfinding-button {
+    margin: 5px;
+    flex: 1 1;
+    flex-basis: 30%;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+
+    /** Pathfinding styling **/
+    .pathfinding-button {
+        flex-basis: 45%;
+    }
+
+    #landing-container {
+        flex-direction: column-reverse;
+    }
+}
